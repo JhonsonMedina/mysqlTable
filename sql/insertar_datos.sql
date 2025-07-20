@@ -22,11 +22,11 @@ COMMIT;
 
 BEGIN;
 INSERT INTO Transacciones (tipo, fecha, cantidad, id_producto, id_proveedor)
-VALUES ('venta', '2025-07-20', 5, 1, NULL);
+VALUES ('venta', '2025-07-24', 5, 1, NULL);
 UPDATE Productos SET cantidad_inventario = cantidad_inventario - 5 WHERE id_producto = 1;
 
 INSERT INTO Transacciones (tipo, fecha, cantidad, id_producto, id_proveedor)
-VALUES ('venta', '2025-07-21', 10, 2, NULL);
+VALUES ('venta', '2025-07-24', 10, 2, NULL);
 UPDATE Productos SET cantidad_inventario = cantidad_inventario - 10 WHERE id_producto = 2;
 
 COMMIT;
