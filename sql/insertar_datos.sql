@@ -7,7 +7,7 @@ INSERT INTO Productos (nombre, descripcion, precio, cantidad_inventario) VALUES
 
 INSERT INTO Proveedores (nombre, direccion, telefono, email) VALUES
 ('Proveedor Uno', 'Av. Principal 123', '555-1010', 'contacto1@proveedores.com'),
-('Proveedor Dos', 'Calle Secundaria 456', '555-2020', 'contacto2@proveedores.com');
+('Proveedor Dos', 'Calle Secundaria 60', '555-2020', 'contacto2@proveedores.com');
 
 BEGIN;
 INSERT INTO Transacciones (tipo, fecha, cantidad, id_producto, id_proveedor)
